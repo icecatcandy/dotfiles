@@ -7,7 +7,7 @@ config.use_fancy_tab_bar = false
 config.window_decorations = 'RESIZE'
 
 config.color_scheme = 'GitHub Dark'
-config.font = wezterm.font('UDEV Gothic 35')
+config.font = wezterm.font('UDEV Gothic')
 
 config.cursor_blink_rate = 0
 config.text_blink_rate = 0
