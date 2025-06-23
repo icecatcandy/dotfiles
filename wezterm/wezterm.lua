@@ -2,9 +2,13 @@ local wezterm = require 'wezterm'
 
 local config = wezterm.config_builder()
 
-config.tab_bar_at_bottom = true
-config.use_fancy_tab_bar = false
 config.window_decorations = 'RESIZE'
+
+config.tab_bar_at_bottom = true
+config.show_new_tab_button_in_tab_bar = false
+config.tab_max_width = 256
+config.use_fancy_tab_bar = false
+config.tab_and_split_indices_are_zero_based = true
 
 config.color_scheme = 'GitHub Dark'
 config.font = wezterm.font('UDEV Gothic')
